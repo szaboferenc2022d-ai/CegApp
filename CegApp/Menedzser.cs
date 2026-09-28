@@ -11,5 +11,11 @@ namespace CegApp
         {
             Bonusz = bonusz;
         }
+
+        public override int FizetesSzamitas()
+        {
+            return base.FizetesSzamitas() + Bonusz;
+        }
+
     }
 }

@@ -7,7 +7,7 @@ namespace CegApp
     internal class Menedzser : Alkalmazott
     {
         public int Bonusz { get; }
-        public Menedzser(int bonusz) : base(nev, alapber)
+        public Menedzser(int bonusz, string nev, int alapber) : base(nev, alapber)
         {
             Bonusz = bonusz;
         }
